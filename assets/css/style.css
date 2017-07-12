@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto|Zilla+Slab");
+
+body{
+  letter-spacing: .6em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+/*styles reutiñizable*/
+.hr-purple-color {
+  background-color: 464981;
+  height: 4px;
+  border: 0; }
+
+.hr-turquesa-color {
+  background-color: #1D9C92;
+  height: 4px;
+  border: 0; }
+
+.bg-color-base {
+  background-color: #4E508E; }
+
+.bg-purple-a {
+  background-color: #4E508E; }
+
+.bg-purple-b {
+  background-color: #4B4D89; }
+
+.bg-purple-c {
+  background-color: #484B84; }
+
+.bg-purple-d {
+  background-color: #45487F; }
+
+.bg-purple-e {
+  background-color: #42457A; }
+
+.bg-purple-f {
+  background-color: #3F4275; }
+
+.bg-magenta {
+  background-color: #ED4933; }
+
+.bg-turquesa {
+  background-color: #21B2A6; }
+
+.gray-a {
+  background-color: #2B343D; }
+
+.gray-b {
+  background-color: #273038; }
+
+.gray-c {
+  background-color: #242C33; }
+
+/**/
+.bg-item{
+  background-color: rgba(76,75,75,0.6);
+  height: 100vh;
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 45%;
+}
+.itemImg1{
+  position: relative;
+  background: url(./img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 100vh;
