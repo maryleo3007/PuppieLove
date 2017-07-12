@@ -1,0 +1,22 @@
+{
+  "name": "aa",
+  "version": "1.0.0",
+  "description": "desarrollo de la clase 54",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryleo3007/PuppieLove.git"
+  },
+  "author": "mllj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryleo3007/PuppieLove/issues"
+  },
+  "homepage": "https://github.com/maryleo3007/PuppieLove#readme",
+   "dependencies": { 
+    "express": "^4.15.3" 
+  }
+}
