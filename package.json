@@ -1,22 +1,26 @@
 {
-  "name": "aa",
+  "name": "puppielove",
   "version": "1.0.0",
-  "description": "desarrollo de la clase 54",
-  "main": "gulpfile.js",
+  "description": "leccion 54",
+  "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maryleo3007/PuppieLove.git"
   },
-  "author": "mllj",
+  "keywords": [
+    "puppielove"
+  ],
+  "author": "marilu llamocca junco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maryleo3007/PuppieLove/issues"
   },
   "homepage": "https://github.com/maryleo3007/PuppieLove#readme",
-   "dependencies": { 
-    "express": "^4.15.3" 
+  "dependencies": {
+    "express": "^4.15.3"
   }
 }
