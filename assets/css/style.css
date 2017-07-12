@@ -110,7 +110,7 @@ p{
    letter-spacing: .1em;
    text-align: center;
 }
-.alimentacion{
+.alimentacion, .unico{
   margin-right: 0px;
 }
 .p-alimentacion{
@@ -125,18 +125,21 @@ p{
 }
 .footer-item{
   background-color: rgba(76,75,75,0.5);
-  height: 100px;
+  height: 200px;
   width: 100%;
   bottom: 0;
 }
 .fooetr{
   position: relative;
   background: url(../img/banner.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 40vh;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% -28%;
+  height: 60vh;
   width: 100%;
+}
+.footer-contet{
+  margin-bottom: 25%;
 }
 @keyframes name{
   0%{
